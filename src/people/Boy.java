@@ -4,8 +4,10 @@
 package people;
 
 /**
+ * A person is boy type class.
  * @author dracon
- *
+ * @version 1.0
+ * @since 2018-12-21
  */
 public class Boy extends Human{
 	
@@ -21,10 +23,11 @@ public class Boy extends Human{
 		Human obj = new Boy();
 		Human obj2 = new Human();
 		
+		//static binding
 		obj.walk();
 		obj2.walk();
 		
-		//probing talk method.
+		//dynamic binding
 		obj.talk();
 		obj2.talk();
 	}

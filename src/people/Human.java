@@ -4,8 +4,10 @@
 package people;
 
 /**
+ * Base class that defines Human features.
  * @author dracon
- *
+ * @version 1.0
+ * @since 2018-12-21
  */
 public class Human {
 
